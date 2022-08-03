@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-makeisnack-dev-142825-authRole",
+      "UnauthRoleArn": "arn:aws:iam::856401919675:role/amplify-makeisnack-dev-142825-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::856401919675:role/amplify-makeisnack-dev-142825-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-makeisnack-dev-142825-deployment",
+      "UnauthRoleName": "amplify-makeisnack-dev-142825-unauthRole",
+      "StackName": "amplify-makeisnack-dev-142825",
+      "StackId": "arn:aws:cloudformation:us-east-1:856401919675:stack/amplify-makeisnack-dev-142825/8a012010-f3c1-11ec-9ef8-12fdcccf8af5",
+      "AmplifyAppId": "d8qkif7lt3tr6"
+    },
+    "categories": {
+      "auth": {
+        "makeisnackba6472bd": {}
+      }
+    }
+  }
+}

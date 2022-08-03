@@ -1,0 +1,125 @@
+.feed__Grid{
+   grid-template-columns: repeat(3, 1fr);
+   gap: 24px;
+   display: grid;
+   grid-column: 1 / -1;
+   margin-top: 20px;
+ 
+  
+
+}
+.feed__wrapper{
+  
+}
+.feed__wrapperItem{
+    width: 100%;
+    position: relative;
+}
+.feed__ImageWrapper{
+    background: rgb(246, 246, 246);
+    height: 128px;
+    width: 100%;
+   
+    overflow: hidden;
+    position: relative;
+
+}
+.feed__span{
+    padding: 12px 0px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    display: flex;
+
+}
+.feed__image{
+    object-fit: cover;
+    border: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.feed__DetailsWrapper{
+    -webkit-box-align: start;
+    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    display: flex;
+}
+.feed__detailsName{
+    margin-top: 12px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+}
+.feed__name{
+    padding: 2px 0px;  
+    font-size: 18px;
+    line-height: 24px;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.feed__priceWrapper{
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+
+}
+.feed__price{
+    flex-shrink: 0;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+.feed__priceSpan{
+    line-height: 20px;
+    color: #545454;
+    font-weight: normal;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.feed__dot{
+    line-height: 20px;
+    color: #545454;
+    display: inline-flex;
+    font-weight: normal;
+    font-size: 14px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.feed__deliveryTimeWrapper{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+.feed__deliveryTime{
+    line-height: 20px;
+    color: #545454;
+    font-weight: normal;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.feed__width{
+    width: calc(75% -18px);
+    margin-right: 24px;
+    flex: none;
+    display: block;
+}
